@@ -1,3 +1,122 @@
-h3 {
-    color: red;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ecedf2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2e2d37;
+}
+
+p, label {
+    color: #000;
+}
+
+input {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0px;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=file] {
+    width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
+    width: 400px;
+}
+
+.cabeçalho {
+    height: 160px;
+    padding: 20px;
+    background-color: #89a7b1;
+}
+
+.cabeçalho > h3 {
+    color: #fff;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 5px 8px -1px rgba(0,0,0,0.75);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -62px;
+}
+
+.form-cabeçalho {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-cabeçalho > p {
+    color: #89a7b1;
+    border-bottom: 2px solid #89a7b1;
+    width: 100px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+}
+
+.form-corpo {
+    padding: 30px;
+}
+
+.form-título {
+    margin: 0px;
+}
+
+.required {
+    color: #d80935;
+}
+
+.caixa-de-inputs {
+    margin-bottom: 30px;
+}
+
+.bloco {
+    display: block;
+}
+
+.opcional {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.opcional-lista {
+    padding-left: 0px;
+}
+
+.opcional-lista {
+    list-style: none;
+}
+
+.btn-cadastrar {
+    background-color: #89a7b1;
+    border-radius: 5px;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-cadastrar:hover {
+    background-color: #fff;
+    border-color: #89a7b1;
+    color: #89a7b1;
 }
